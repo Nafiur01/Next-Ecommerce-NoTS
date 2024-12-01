@@ -10,11 +10,21 @@ const CustomizeProducts = () => {
         </li>
         <li className="w-8 h-8 rounded-full ring-1 ring-gray-300 cursor-pointer relative bg-blue-500"></li>
         <li className="w-8 h-8 rounded-full ring-1 ring-gray-300 relative bg-green-500 cursor-not-allowed">
-          <div className="absolute w-10 h-[2px] bg-red-500 rotate-45 rounded-full ring-1 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2" />
+          <div className="absolute w-10 h-[2px] bg-red-500 rotate-45 rounded-full top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2" />
         </li>
       </ul>
       <h4 className="font-medium">Choose a size</h4>
-      <div></div>
+      <ul className="flex gap-3">
+        <li className="rounded-md ring-1 ring-lama text-lama py-1 px-4 text-sm cursor-pointer">
+          Small
+        </li>
+        <li className="rounded-md ring-1 ring-lama text-white bg-lama py-1 px-4 text-sm cursor-pointer">
+          Medium
+        </li>
+        <li className="rounded-md ring-lama text-white bg-pink-200 py-1 px-4 text-sm cursor-pointer">
+          Large
+        </li>
+      </ul>
     </div>
   );
 };
