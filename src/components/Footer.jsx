@@ -16,16 +16,21 @@ const Footer = () => {
           <span className="font-semibold">nafiur@gmail.com</span>
           <span className="font-semibold">01712211148</span>
           <div className="flex gap-6">
-            <Image src="/facebook.com" alt="facebook" width={16} height={16} />
+            <Image src="/facebook.png" alt="facebook" width={16} height={16} />
             <Image
-              src="/instagram.com"
+              src="/instagram.png"
               alt="instagram"
               width={16}
               height={16}
             />
-            <Image src="/youtube.com" alt="youtube" width={16} height={16} />
-            <Image src="/linkedIn.com" alt="linkedin" width={16} height={16} />
-            <Image src="/x.com" alt="x" width={16} height={16} />
+            <Image src="/youtube.png" alt="youtube" width={16} height={16} />
+            <Image
+              src="/pinterest.png"
+              alt="pinterest"
+              width={16}
+              height={16}
+            />
+            <Image src="/x.png" alt="x" width={16} height={16} />
           </div>
         </div>
 
@@ -79,16 +84,16 @@ const Footer = () => {
           </div>
           <span className="font-light text-sm">SECURE PAYMENTS</span>
           <div className="flex justify-between">
-            <Image src="/facebook.com" alt="facebook" width={16} height={16} />
+            <Image src="/discover.png" alt="discover" width={20} height={20} />
+            <Image src="/skrill.png" alt="skrill" width={20} height={20} />
+            <Image src="/paypal.png" alt="paypal" width={20} height={20} />
             <Image
-              src="/instagram.com"
-              alt="instagram"
-              width={16}
-              height={16}
+              src="/mastercard.png"
+              alt="mastercard"
+              width={20}
+              height={20}
             />
-            <Image src="/youtube.com" alt="youtube" width={16} height={16} />
-            <Image src="/linkedIn.com" alt="linkedin" width={16} height={16} />
-            <Image src="/x.com" alt="x" width={16} height={16} />
+            <Image src="/visa.png" alt="visa" width={20} height={20} />
           </div>
         </div>
       </div>
