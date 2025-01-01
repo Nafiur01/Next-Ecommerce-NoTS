@@ -9,6 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@wix/sdk": "^1.15.7",
+    "@wix/stores": "^1.0.331",
+    "js-cookie": "^3.0.5",
     "lucide-react": "^0.453.0",
     "next": "14.2.2",
     "react": "^18",
